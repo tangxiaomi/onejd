@@ -1,0 +1,175 @@
+/*设置定css的编码*/
+@charset "UTF-8";
+
+/*主体开始*/
+  .main{
+      height: 454px;
+
+      margin-top: 11px;
+
+  }
+  .main .main-slider{
+      float: left;
+      width: 730px;
+      height: 454px;
+      margin-left: 220px;
+      position: relative;
+  }
+.main .main-extra{
+    width: 250px;
+    height: 454px;
+    float: right;
+
+}
+.main .main-slider ul{
+
+    height: 18px;
+    position: absolute;
+    left: 50%;
+    margin-left: -64px;
+   bottom: 8px;
+}
+.main .main-slider li{
+    float: left;
+    height: 19px;
+    width: 19px;
+    background-color: #3e3e3e;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 4px;
+    
+}
+.main .main-slider li a{
+    color: #fff;
+}
+.main .main-slider .special{
+    background-color: #C81623;
+}
+
+.main .main-slider .arrow a{
+    height: 62px;
+    width: 28px;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 16px/62px simsun;
+    text-align: center;
+}
+.main .arrow .arrow-right a{
+    right: 0;
+}
+.main .main-extra .news{
+    height: 163px;
+    width: 248px;
+    border: 1px solid #e4e4e4;
+}
+.main .main-extra .news .mt{
+    height: 32px;
+    border-bottom: 1px dotted pink;
+    padding: 0 15px;
+}
+.main .main-extra .news .mc{
+    padding-left: 15px;
+    padding-top: 6px;
+}
+.main .news .mc li{
+    line-height: 24px;
+}
+.main .news .mc li span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.main  .news .mt h2{
+    float: left;
+    font: 15px/32px "microsoft yahei";
+}
+.main  .news .mt a{
+    float: right;
+    font: 15px/32px "simsun"
+}
+.main .main-extra .life{
+    height: 208px;
+    width: 248px;
+    border: 1px solid #E4E4E4;
+    border-top: 0 none;
+    overflow: hidden;
+}
+.main .main-extra .life ul{
+    width: 252px;
+}
+.main .main-extra .life li {
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid  #E4E4E4;
+    border-bottom: 1px solid  #E4E4E4;
+    float: left;
+    position: relative;
+}
+.main .main-extra .life a{
+    width: 62px;
+    height: 28px;
+    display: inline-block;
+    padding-top: 42px;
+    text-align: center;
+}
+.main .main-extra .life em{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background-color: red;
+    top: 11px;
+    left: 19px;
+    background: url(../images/icon_lifeserv.png);
+
+}
+.main .main-extra .l-banner{
+    width: 250px;
+    height: 75px;
+    padding-top: 6px;
+}
+/*主体结束*/
+
+
+
+/*今日推荐开始*/
+.today{
+    margin-top: 10px;
+}
+  .today .mt{
+      width: 210px;
+      height: 151px;
+      float: left;
+  }
+.today .mc{
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    height: 164px;
+}
+.today .mc ul{
+    width: 6000px;
+}
+.today .mc li{
+      float: left;
+      margin-right: 1px;
+  }
+.today .arrow a{
+    height: 62px;
+    width: 28px;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 16px/62px simsun;
+    text-align: center;
+}
+.today .mc .arrow-right a{
+    right: 0;
+}
+.today .mc .arrow-left a{
+    left: 0;
+}
+/*今日推荐结束*/
